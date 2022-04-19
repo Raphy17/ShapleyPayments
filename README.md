@@ -1,7 +1,7 @@
 # CA-BNE
 
 
-This is a piece of software used for measure the performance of different reference point rules.
+This is a piece of software used to measure the performance of different reference point rules.
 
 Before the performance can be measured, the Bayes-Nash Equilibria need to be computed. This can be with the help of the following paper:
 **Computing Bayes-Nash Equilibria in Combinatorial Auctions with Continuous Value and Action Spaces**  
