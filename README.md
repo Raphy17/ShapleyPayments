@@ -13,9 +13,11 @@ All the settings examined in my Thesis are already present. They can be visualiz
 To measure the performance of the payment rules, the main.py script needs to be run.
 It currently measures the performance of the payment rules in standard LLG and standard L3G.
 To measure the performance in different settings, the value ranges, the correlation and the path to the BNE strategies need to be adjusted.
+To measure the performance for groups of settings, the write_csv() function in experiments.py script can be used.
+All the measured performances can be found in the results folder.
 
 To measure the correlation between different performance metric, also the main.py script needs to be run.
-It currently measures the correlation between LM at truth and all other performance metrics. It does this in the settings discussed in the Thesis.
+It currently calculates the correlation between LM at truth and all other performance metrics, i.e., the correlations shown in my thesis. It does this across all settings discussed in the Thesis.
 To compute the correlation between different performance metrics, either the "metric" variable needs to be adjusted or the "metric1" and "metric2" variables need to be adjusted
 
 
